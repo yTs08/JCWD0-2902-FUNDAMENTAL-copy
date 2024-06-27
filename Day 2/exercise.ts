@@ -54,8 +54,9 @@ for (
   i < numb;
   i++ // [number1, number2] = [number2, number1 + number2];
 ) {
-  const tmp = number1 + number2;
-  number1 = number2;
-  number2 = tmp;
+  // const tmp = number1 + number2;
+  // number1 = number2;
+  // number2 = tmp;
+  [number1, number2] = [number2, number1 + number2];
 }
 console.log(`${numb} → ${number2}`);
