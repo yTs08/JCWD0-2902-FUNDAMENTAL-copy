@@ -44,3 +44,8 @@ for (let i = 0; i < 5; i++) {
   } // 3x loop disini
   // console.log("looping i", i);
 }
+
+for (let i = 0; i < 15; i++) {
+  let sad = [i];
+}
+if (sad?  )
