@@ -31,9 +31,12 @@ function bubbleSort(arr: number[]) {
 
 function selectionSort(arr: number[]) {
   for (let i = 0; i < arr.length - 1; i++) {
-    const min = Math.min(...arr.slice(i + 1, arr.length));
-    const indexMin = arr.indexOf(min);
+    const min = Math.min(...arr.slice(i + 1, arr.length)); // 2  [3, 2, 10, 25]
+    const indexMin = arr.indexOf(min); // index 2 adalah 2
     if (min < arr[i]) [arr[i], arr[indexMin]] = [arr[indexMin], arr[i]];
+    //2 < 5? arr[0] = 2, arr[2] = 5
+    //
+    //[2,3,5,10,25]
   }
   return arr;
 }
