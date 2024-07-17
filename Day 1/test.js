@@ -236,3 +236,7 @@ const date6 = new Date("2023-01-20");
 // const diff: number = (Number(date2) - Number(date1)) / 1000 / 3600 / 24;
 const diff = (date6 - date5) / 1000 / 3600 / 24;
 console.log(diff);
+let temp = "javascript is awesome ".split(``);
+for (let i = 0; i < temp.length; i += 1) {
+  temp.push(temp[i]);
+}

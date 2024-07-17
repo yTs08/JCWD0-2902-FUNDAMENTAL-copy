@@ -77,6 +77,7 @@ function fa() {
 
   return fb;
 }
+//console.log(fa);
 
 console.log(0 && 88);
 let str = "";
