@@ -1,3 +1,4 @@
+
 /** @format */
 
 //then pada saat promise terpenuhi
@@ -148,4 +149,12 @@ const arr = [1, 2, 3, 4];
 console.log(JSON.stringify(arr), arr);
 
 console.log(strObj, JSON.parse(strObj));
-console.log(obj);
+
+const contoh2 = new Promise((resolve, reject)=> {
+    resolve("berhasil!")
+    reject("gagal!")
+});
+const result = async () => await contoh2.then((res)=> res). catch((err)=> err); // berhasil atau gagal
+
+const test = async () => console.log(contoh2.finally() )
+

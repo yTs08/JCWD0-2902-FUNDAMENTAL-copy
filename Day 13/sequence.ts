@@ -1,3 +1,4 @@
+
 /** @format */
 
 let result: string | number = "";
@@ -75,3 +76,10 @@ setTimeout(() => {
   console.log("urutan 3");
 }, 2000);
 //selesai 2 3 1
+
+function calculator(a: number, b: number){
+    return a + b;
+
+    function displayer
+}
+

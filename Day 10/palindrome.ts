@@ -36,3 +36,14 @@ console.log(numb++ + 15); //
 //  10(avg(fundamental,frontend,backend)) + 10 CC(cc1+cc2)
 // 15 minpro + 15 selection test(take home test, live code, technical question)  = 50*2
 // hasil >= 85
+
+let palindrome1: string | string[] = "race, car";
+const arrAlpah = "abcdefghijklmnopqrstuvwxyz".split("");
+palindrome = palindrome1.split("").filter((char) => {
+  console.log(char, arrAlpah.includes(char));
+});
+
+const reversed1 = [...palindrome1].reverse();
+let ispalindrome = true;
+
+console.log(ispalindrome);
